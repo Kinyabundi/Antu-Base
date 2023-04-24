@@ -9,7 +9,10 @@ import Footer from "../components/home/Footer";
 export default function Home() {
   return (
     <>
-      <Box position={"relative"} pt={"8"} pb={"24"} px={"28"}>
+      <Box position={"relative"} pt={"8"} pb={"24"} px={{
+        base: "8px",  
+        md: "28px",
+      }}>
         <Box
           position={"absolute"}
           top={"0"}
