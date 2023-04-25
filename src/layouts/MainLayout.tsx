@@ -7,8 +7,8 @@ export default function MainLayout() {
   return (
     <>
       <Box position={"relative"} pt={"8"} pb={"24"} px={{
-        base: "8px",
-        md: "28px",
+        base: "8",
+        md: "28",
       }}>
         <Box
           position={"absolute"}

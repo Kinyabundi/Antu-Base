@@ -8,8 +8,8 @@ export default function Features() {
   return (
     <Box fontFamily={"Inconsolata"}>
       <Box py={8} px={{
-        base: "12px",
-        md: "28px",
+        base: "12",
+        md: "28",
       }}>
         <Text textAlign={"center"} fontWeight={"bold"} fontSize={"5xl"}>
           Features
@@ -65,8 +65,8 @@ export default function Features() {
         </Flex>
       </Box>
       <Box bg="rgba(0, 81, 255, 0.04)" py={8} px={{
-        base: "12px",
-        md: "28px",
+        base: "12",
+        md: "28",
       }}>
         <SimpleGrid
           columns={{
@@ -107,8 +107,8 @@ export default function Features() {
         </SimpleGrid>
       </Box>
       <Box py={12} px={{
-        base: "12px",
-        md: "28px",
+        base: "12",
+        md: "28",
       }}>
         <SimpleGrid
           columns={{
@@ -149,8 +149,8 @@ export default function Features() {
         </SimpleGrid>
       </Box>
       <Box bg="rgba(0, 81, 255, 0.04)" py={8} px={{
-        base: "12px",
-        md: "28px",
+        base: "12",
+        md: "28",
       }}>
         <SimpleGrid
           columns={{
@@ -192,8 +192,8 @@ export default function Features() {
         </SimpleGrid>
       </Box>
       <Box py={12} px={{
-        base: "12px",
-        md: "28px",
+        base: "12",
+        md: "28",
       }}>
         <SimpleGrid
           columns={{
@@ -229,8 +229,8 @@ export default function Features() {
         </SimpleGrid>
       </Box>
       <Box py={12} px={{
-        base: "12px",
-        md: "28px",
+        base: "12",
+        md: "28",
       }}>
         <Fade bottom>
           <Image src="/images/validation.png" />

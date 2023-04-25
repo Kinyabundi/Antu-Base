@@ -10,11 +10,11 @@ import {
 export default function Partnerships() {
   return (
     <Box py={{
-      base: "8px",
-      md: "20px",
+      base: "8",
+      md: "20",
     }} px={{
-      base: "8px",
-      md: "28px",
+      base: "8",
+      md: "28",
     }} fontFamily={"Inconsolata"} mt={10}>
       <Text textAlign={"center"} fontWeight={"bold"} fontSize={"3xl"}>
         Partnerships

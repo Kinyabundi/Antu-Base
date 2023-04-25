@@ -20,8 +20,8 @@ export default function Footer() {
       fontFamily={"Inconsolata"}
       py={8}
       px={{
-        base: "12px",
-        md: "28px",
+        base: "12",
+        md: "28",
       }}
       bg={"black"}
       color={"white"}
