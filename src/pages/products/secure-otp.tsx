@@ -39,7 +39,7 @@ const SecureOTP = () => {
                             Secure OTP
                         </Text>
                         <Text fontSize={"xl"} color={"#969696"} pt={3}>
-                            lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor, nisl a lacinia lacinia, nisl nisl aliquam nisl, nec aliquam nisl nisl a nisl.
+                        One-time password (OTP) systems provide a mechanism for logging on to a network or service using a unique password that can only be used once, as the name suggests.
                         </Text>
                         <Button
                             size={"lg"}
@@ -97,23 +97,25 @@ const SecureOTP = () => {
                         <Icon as={HiOutlineIdentification} w={8} h={8} color={"#10E4B6"} mt={"20px"} mx={"145px"} />
                         <Text
                             fontWeight={"700"}
-                            fontSize={"24px"}
+                            fontSize={"20px"}
                             lineHeight={"34px"}
                             mt={"10px"}
-                            mx={"116px"}
+                            mx={"100px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        >Mobile Authentication</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}
-                            fontSize={"18px"}
+                            fontSize={"16px"}
                             textAlign={"center"}
                             mt={"7px"}
-                            mx={"30px"}
+                            mx={"25px"}
                             color={"#BFBFBF"}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit facere perspiciatis illum. Natus animi vitae ipsam deleniti, maxime voluptates ipsum fuga
+                            Protect your customers from digital fraud
+                            and identity theft.
+                            Safeguard your customers’ transactions in a compliant and user-friendly way, using true out-of-band, OTP authentication.
                         </Text>
                     </Box>
                     <Box
@@ -130,23 +132,23 @@ const SecureOTP = () => {
                         <Icon as={HiOutlineIdentification} w={8} h={8} color={"#10E4B6"} mt={"20px"} mx={"145px"} />
                         <Text
                             fontWeight={"700"}
-                            fontSize={"24px"}
+                            fontSize={"20px"}
                             lineHeight={"34px"}
                             mt={"10px"}
-                            mx={"116px"}
+                            mx={"100px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        >Authentication of online payment transactions</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}
-                            fontSize={"18px"}
+                            fontSize={"16px"}
                             textAlign={"center"}
                             mt={"7px"}
-                            mx={"30px"}
+                            mx={"25px"}
                             color={"#BFBFBF"}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit facere perspiciatis illum. Natus animi vitae ipsam deleniti, maxime voluptates ipsum fuga
+                        Banks and the credit/debit card providers usually use OTP SMSes to authenticate payment transactions.
                         </Text>
                     </Box>
                     <Box
@@ -163,23 +165,23 @@ const SecureOTP = () => {
                         <Icon as={HiOutlineIdentification} w={8} h={8} color={"#10E4B6"} mt={"20px"} mx={"145px"} />
                         <Text
                             fontWeight={"700"}
-                            fontSize={"24px"}
+                            fontSize={"20px"}
                             lineHeight={"34px"}
                             mt={"10px"}
-                            mx={"116px"}
+                            mx={"100px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        >MNO Authentication</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}
-                            fontSize={"18px"}
+                            fontSize={"16px"}
                             textAlign={"center"}
                             mt={"7px"}
-                            mx={"30px"}
+                            mx={"25px"}
                             color={"#BFBFBF"}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit facere perspiciatis illum. Natus animi vitae ipsam deleniti, maxime voluptates ipsum fuga
+                           Eliminate the risk of SIM-based fraud and related attacks. Upgrade from traditional SMS one-time PINs (OTPs) to MNO Authentication, an intuitive and reliable mobile-network–based solution that securely authenticates your customers on any mobile device.
                         </Text>
                     </Box>
 

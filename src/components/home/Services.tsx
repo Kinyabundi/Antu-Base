@@ -35,17 +35,24 @@ export default function Services() {
         <ServiceCard
           imagePath="/images/icons/id.png"
           title="Identity Verification"
+          description="Identity Verification is a digital identity verification method used to check whether an applicant’s ID document (e.g. passport, ID card, driver’s license, etc.) is legitimate."
         />
         <ServiceCard
           imagePath="/images/icons/facial.png"
           title="Facial Verification"
+          description="Facial Verification is the process of using a photograph or captured selfie to cross-check and verify identity, AntuBase's Biometric Verification Solution offers the highest degree of real-time risk mitigation for businesses engaging with clients in a digital or face-to-face environment.
+         "
         />
-        <ServiceCard imagePath="/images/icons/kyc.png" title="Blockchain KYC" />
+        <ServiceCard imagePath="/images/icons/kyc.png" title="Blockchain KYC" 
+        description="e-KYC is when approved entities query a national ID system to authenticate or verify customers’ identities and, in some cases, retrieve basic attributes about them. e-KYC is a process that is used to verify the identity of a customer and to ensure that the customer is who they claim to be. "
+        />
         <ServiceCard
           imagePath="/images/icons/phone.png"
           title="Phone Verification"
+          description="Phone verification is the process of validating your mobile number to know whether it is in service or in a working condition or not. It is a mandatory process in most of the applications for security purposes."
         />
-        <ServiceCard imagePath="/images/icons/kyc.png" title="Secure OTP" />
+        <ServiceCard imagePath="/images/icons/kyc.png" title="Secure OTP" description="lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor, nisl a lacinia lacinia, nisl nisl aliquam nisl, nec aliquam nisl nisl a nisl."
+         />
       </SimpleGrid>
     </Box>
   );
@@ -61,8 +68,7 @@ const ServiceCard = ({ imagePath, title, description }: ServiceCardProps) => {
         {title}
       </Text>
       <Text fontSize={"lg"} color={"gray.500"} py={5}>
-        {description ??
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae autem rem consequatur exercitationem pariatur a facere id ullam eos labore dicta molestias obcaecati minima tempora, nesciunt voluptatibus, sit"}
+        {description}
       </Text>
       <Button
         rightIcon={<TbChevronRight />}

@@ -39,7 +39,8 @@ const FacialVerification = () => {
                             Facial Verification
                         </Text>
                         <Text fontSize={"xl"} color={"#969696"} pt={3}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo vitae quasi nobis. Est fugit commodi, culpa tempore, quis dolorum impedit molestias officiis sed corrupti repudiandae facere. Labore, unde porro.
+                            Facial Verification is the process of using a photograph or captured selfie to cross-check and verify identity, AntuBase's Biometric Verification Solution offers the highest degree of real-time risk mitigation for businesses engaging with clients in a digital or face-to-face environment.
+                            The service scans a photograph or captured selfie and transforms facial features into digital biometric information. The information is then used to cross-check the photograph against a provided Identity Document or Passport, thereby confirming or invalidating the individual’s provided identity information.
                         </Text>
                         <Button
                             size={"lg"}
@@ -91,29 +92,29 @@ const FacialVerification = () => {
                             md: "50px",
                         }}
                         w={"343px"}
-                        h={"307px"}
+                        h={"325px"}
                         borderRadius={"13.81px"}
                     >
                         <Icon as={HiOutlineIdentification} w={8} h={8} color={"#10E4B6"} mt={"20px"} mx={"145px"} />
                         <Text
                             fontWeight={"700"}
-                            fontSize={"24px"}
+                            fontSize={"20px"}
                             lineHeight={"34px"}
                             mt={"10px"}
-                            mx={"116px"}
+                            mx={"100px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        > Law Enforcement</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}
-                            fontSize={"18px"}
+                            fontSize={"16px"}
                             textAlign={"center"}
                             mt={"7px"}
-                            mx={"30px"}
+                            mx={"25px"}
                             color={"#BFBFBF"}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit facere perspiciatis illum. Natus animi vitae ipsam deleniti, maxime voluptates ipsum fuga
+                          Law enforcement has been a critical use case for facial recognition since the initial days of the technology’s development. Police have used facial recognition ethically to solve crimes, from identifying shoplifters to tracking dangerous criminals.
                         </Text>
                     </Box>
                     <Box
@@ -124,29 +125,30 @@ const FacialVerification = () => {
                             md: "50px",
                         }}
                         w={"343px"}
-                        h={"307px"}
+                        h={"325px"}
                         borderRadius={"13.81px"}
                     >
                         <Icon as={HiOutlineIdentification} w={8} h={8} color={"#10E4B6"} mt={"20px"} mx={"145px"} />
                         <Text
                             fontWeight={"700"}
-                            fontSize={"24px"}
+                            fontSize={"20px"}
                             lineHeight={"34px"}
                             mt={"10px"}
-                            mx={"116px"}
+                            mx={"100px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        >Access control</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}
-                            fontSize={"18px"}
+                            fontSize={"16px"}
                             textAlign={"center"}
                             mt={"7px"}
-                            mx={"30px"}
+                            mx={"25px"}
                             color={"#BFBFBF"}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit facere perspiciatis illum. Natus animi vitae ipsam deleniti, maxime voluptates ipsum fuga
+                            Facial recognition is  used in commercial and residential facilities to grant access to authorized employees, family members, or pre-registered guests – or restrict access to unauthorized persons. Examples include:
+                            Smart locks and elevators for residential and commercial facilities.
                         </Text>
                     </Box>
                     <Box
@@ -157,29 +159,31 @@ const FacialVerification = () => {
                             md: "50px",
                         }}
                         w={"343px"}
-                        h={"307px"}
+                        h={"325px"}
                         borderRadius={"13.81px"}
                     >
                         <Icon as={HiOutlineIdentification} w={8} h={8} color={"#10E4B6"} mt={"20px"} mx={"145px"} />
                         <Text
                             fontWeight={"700"}
-                            fontSize={"24px"}
+                            fontSize={"20px"}
                             lineHeight={"34px"}
                             mt={"10px"}
-                            mx={"116px"}
+                            mx={"100px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        >Opening a bank account</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}
-                            fontSize={"18px"}
+                            fontSize={"16px"}
                             textAlign={"center"}
                             mt={"7px"}
-                            mx={"30px"}
+                            mx={"25px"}
                             color={"#BFBFBF"}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit facere perspiciatis illum. Natus animi vitae ipsam deleniti, maxime voluptates ipsum fuga
+                            Know Your Customer (KYC) is a regulated global practice in financial services. A customer requests to open a bank account.
+                            The bank clerk takes the client’s photo as part of the account registration and eKYC process, then scans the client’s government-issued ID.
+                            Biometric verification is performed using facial recognition technology.
                         </Text>
                     </Box>
 

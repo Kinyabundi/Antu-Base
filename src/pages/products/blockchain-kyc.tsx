@@ -106,7 +106,7 @@ const BlockChainKYC = () => {
                             mx={"116px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        >HealthCare</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}
@@ -116,7 +116,7 @@ const BlockChainKYC = () => {
                             mx={"30px"}
                             color={"#BFBFBF"}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit facere perspiciatis illum. Natus animi vitae ipsam deleniti, maxime voluptates ipsum fuga
+                           Blockchain is great for creating a single patient registry (Electronic health records). In fact, there will be a single base with a high level of security, stable operation and access from anywhere. Having such an infrastructure, the patient does not need to worry about data synchronization.
                         </Text>
                     </Box>
                     <Box
@@ -139,7 +139,7 @@ const BlockChainKYC = () => {
                             mx={"116px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        >Banking</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}

@@ -39,7 +39,7 @@ const IDVerification = () => {
                             ID Verification
                         </Text>
                         <Text fontSize={"xl"} color={"#969696"} pt={3}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo vitae quasi nobis. Est fugit commodi, culpa tempore, quis dolorum impedit molestias officiis sed corrupti repudiandae facere. Labore, unde porro.
+                           Identity Verification is a digital identity verification method used to check whether an applicant’s ID document (e.g. passport, ID card, driver’s license, etc.) is legitimate
                         </Text>
                         <Button
                             size={"lg"}
@@ -90,29 +90,29 @@ const IDVerification = () => {
                             md: "50px",
                         }}
                         w={"343px"}
-                        h={"307px"}
+                        h={"325px"}
                         borderRadius={"13.81px"}
                     >
                         <Icon as={HiOutlineIdentification} w={8} h={8} color={"#10E4B6"} mt={"20px"} mx={"145px"} />
                         <Text
                             fontWeight={"700"}
-                            fontSize={"24px"}
+                            fontSize={"20px"}
                             lineHeight={"34px"}
                             mt={"10px"}
-                            mx={"116px"}
+                            mx={"100px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        >Finance</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}
-                            fontSize={"18px"}
+                            fontSize={"16px"}
                             textAlign={"center"}
                             mt={"7px"}
-                            mx={"30px"}
+                            mx={"25px"}
                             color={"#BFBFBF"}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit facere perspiciatis illum. Natus animi vitae ipsam deleniti, maxime voluptates ipsum fuga
+                            Digital onboarding and authentication solution that financial institutions use to meet KYC and AML requirements, while improving user experience and security standards.
                         </Text>
                     </Box>
                     <Box
@@ -123,29 +123,29 @@ const IDVerification = () => {
                             md: "50px",
                         }}
                         w={"343px"}
-                        h={"307px"}
+                        h={"325px"}
                         borderRadius={"13.81px"}
                     >
                         <Icon as={HiOutlineIdentification} w={8} h={8} color={"#10E4B6"} mt={"20px"} mx={"145px"} />
                         <Text
                             fontWeight={"700"}
-                            fontSize={"24px"}
+                            fontSize={"20px"}
                             lineHeight={"34px"}
                             mt={"10px"}
-                            mx={"116px"}
+                            mx={"100px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        >Mobility</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}
-                            fontSize={"18px"}
+                            fontSize={"16px"}
                             textAlign={"center"}
                             mt={"7px"}
-                            mx={"30px"}
+                            mx={"25px"}
                             color={"#BFBFBF"}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit facere perspiciatis illum. Natus animi vitae ipsam deleniti, maxime voluptates ipsum fuga
+                            Digital onboarding and authentication solution that mobility platforms use to verify their drivers documents, while offering a great user experience and ensuring security standards
                         </Text>
                     </Box>
                     <Box
@@ -156,29 +156,29 @@ const IDVerification = () => {
                             md: "50px",
                         }}
                         w={"343px"}
-                        h={"307px"}
+                        h={"325px"}
                         borderRadius={"13.81px"}
                     >
                         <Icon as={HiOutlineIdentification} w={8} h={8} color={"#10E4B6"} mt={"20px"} mx={"145px"} />
                         <Text
                             fontWeight={"700"}
-                            fontSize={"24px"}
+                            fontSize={"20px"}
                             lineHeight={"34px"}
                             mt={"10px"}
-                            mx={"116px"}
+                            mx={"100px"}
                             color={"#000000"}
                             textAlign={"center"}
-                        >Use Case</Text>
+                        >Customer Onboarding</Text>
                         <Text
                             fontWeight={"400"}
                             lineHeight={"20px"}
-                            fontSize={"18px"}
+                            fontSize={"16px"}
                             textAlign={"center"}
                             mt={"7px"}
-                            mx={"30px"}
+                            mx={"25px"}
                             color={"#BFBFBF"}
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit facere perspiciatis illum. Natus animi vitae ipsam deleniti, maxime voluptates ipsum fuga
+                            Consumers expect fast and secure onboarding when opening an account. Avoid the pitfalls of slow, disjointed customer onboarding by leveraging a comprehensive end-to-end identity verification platform that puts speed, security and growth at the forefront of your operations.
                         </Text>
                     </Box>
 
