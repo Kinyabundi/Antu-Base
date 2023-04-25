@@ -7,7 +7,10 @@ import Fade from "react-reveal/Fade";
 export default function Features() {
   return (
     <Box fontFamily={"Inconsolata"}>
-      <Box py={8} px={"28"}>
+      <Box py={8} px={{
+        base: "12px",
+        md: "28px",
+      }}>
         <Text textAlign={"center"} fontWeight={"bold"} fontSize={"5xl"}>
           Features
         </Text>
@@ -61,7 +64,10 @@ export default function Features() {
           </Box>
         </Flex>
       </Box>
-      <Box bg="rgba(0, 81, 255, 0.04)" py={8} px={"28"}>
+      <Box bg="rgba(0, 81, 255, 0.04)" py={8} px={{
+        base: "12px",
+        md: "28px",
+      }}>
         <SimpleGrid
           columns={{
             base: 1,
@@ -100,7 +106,10 @@ export default function Features() {
           </Fade>
         </SimpleGrid>
       </Box>
-      <Box py={12} px={"28"}>
+      <Box py={12} px={{
+        base: "12px",
+        md: "28px",
+      }}>
         <SimpleGrid
           columns={{
             base: 1,
@@ -139,7 +148,10 @@ export default function Features() {
           </Flex>
         </SimpleGrid>
       </Box>
-      <Box bg="rgba(0, 81, 255, 0.04)" py={8} px={"28"}>
+      <Box bg="rgba(0, 81, 255, 0.04)" py={8} px={{
+        base: "12px",
+        md: "28px",
+      }}>
         <SimpleGrid
           columns={{
             base: 1,
@@ -179,7 +191,10 @@ export default function Features() {
           </Fade>
         </SimpleGrid>
       </Box>
-      <Box py={12} px={"28"}>
+      <Box py={12} px={{
+        base: "12px",
+        md: "28px",
+      }}>
         <SimpleGrid
           columns={{
             base: 1,
@@ -213,7 +228,10 @@ export default function Features() {
           </Flex>
         </SimpleGrid>
       </Box>
-      <Box py={12} px={"28"}>
+      <Box py={12} px={{
+        base: "12px",
+        md: "28px",
+      }}>
         <Fade bottom>
           <Image src="/images/validation.png" />
         </Fade>

@@ -17,7 +17,10 @@ const PhoneVerification = () => {
             />
 
 
-            <Box py={12} px={"28"} h={"600"}
+            <Box py={12} px={{
+                base: "8px",
+                md: "28px",
+            }} h={"600"}
                 fontFamily={"Inconsolata"}
             >
                 <SimpleGrid columns={{
@@ -88,7 +91,10 @@ const PhoneVerification = () => {
                     <Box
                         bg={"white"}
                         boxShadow={"0px 4.60418px 40.2865px rgba(0, 0, 0, 0.09)"}
-                        mx={"50px"}
+                        mx={{
+                            base: "25px",
+                            md: "50px",
+                        }}
                         w={"343px"}
                         h={"307px"}
                         borderRadius={"13.81px"}
@@ -118,7 +124,10 @@ const PhoneVerification = () => {
                     <Box
                         bg={"white"}
                         boxShadow={"0px 4.60418px 40.2865px rgba(0, 0, 0, 0.09)"}
-                        mx={"50px"}
+                        mx={{
+                            base: "25px",
+                            md: "50px",
+                        }}
                         w={"343px"}
                         h={"307px"}
                         borderRadius={"13.81px"}
@@ -148,7 +157,10 @@ const PhoneVerification = () => {
                     <Box
                         bg={"white"}
                         boxShadow={"0px 4.60418px 40.2865px rgba(0, 0, 0, 0.09)"}
-                        mx={"50px"}
+                        mx={{
+                            base: "25px",
+                            md: "50px",
+                        }}
                         w={"343px"}
                         h={"307px"}
                         borderRadius={"13.81px"}
@@ -186,8 +198,8 @@ const PhoneVerification = () => {
                 base: "100px",
                 md: "50px",
             }} mx={{
-                base: "50px",
-                md: "0px",
+                base: "25px",
+                md: "50px",
             }}>
                 <Text
                     fontWeight={"700"}

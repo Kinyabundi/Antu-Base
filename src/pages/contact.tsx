@@ -21,9 +21,11 @@ export default function Contact() {
     <>
       <Navbar header={"Contact"} />
 
-      <Box py={12} px={"28"} fontFamily={"Inconsolata"}>
+      <Box py={12} px={{
+        base: "12px",
+        md: "28px",
+      }} fontFamily={"Inconsolata"}>
         <iframe
-        title="Google Maps"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1021150.2078797459!2d35.54065927812499!3d-1.2505607999999946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f19ad9a1a2ce1%3A0xe96ada7314fbafe2!2sThe%20Andys%20Veterinary%20Clinic%20-%20Loresho!5e0!3m2!1sen!2ske!4v1682259206310!5m2!1sen!2ske"
           width="100%"
           height="450"
@@ -43,12 +45,15 @@ export default function Contact() {
           my={"100px"}
           gap={4}
         >
-          <Box>
+          <Box maxW={{
+            base: "100%",
+            md: "70%",
+          }}>
             <Text fontSize={"3xl"} fontWeight={"semibold"} color={"#595959"}>
               Get in Touch
             </Text>
 
-            <Text my={5} maxW={"70%"} color={"#595959"}>
+            <Text my={5}  color={"#595959"}>
               We will be pleased to hear from you with any questions or
               inquiries about our services. If you have any comments or
               suggestions about our website

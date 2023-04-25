@@ -9,8 +9,14 @@ interface ServiceCardProps {
 
 export default function Services() {
   return (
-    <Box py={8} px={"28"} fontFamily={"Inconsolata"}>
-      <Text fontWeight={"bold"} fontSize={"55px"}>
+    <Box py={8} px={{
+      base: "12px",
+      md: "28px",
+    }} fontFamily={"Inconsolata"}>
+      <Text fontWeight={"bold"} fontSize={{
+        base: "45px",
+        md: "55px",
+      }}>
         Reliable end-to-end verification services
       </Text>
       <Text fontSize={"2xl"} pt={3} color={"#969696"}>
