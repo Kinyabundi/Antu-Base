@@ -19,7 +19,10 @@ import { HiOutlineSearch } from "react-icons/hi";
 export default function Documentation() {
   return (
     <>
-      <Box position={"relative"} pt={"8"} pb={"24"} px={"28"}>
+      <Box position={"relative"} pt={"8"} pb={"24"} px={{
+        base: "12px",
+        md: "28px",
+      }}>
         <Box
           position={"absolute"}
           top={"0"}
@@ -62,8 +65,11 @@ export default function Documentation() {
           </InputGroup>
         </Flex>
       </Box>
-      <Flex align={"center"} w={"full"} flexDir={"column"} my={8}>
-        <Heading fontSize={"7xl"} textAlign={"center"} fontWeight={"extrabold"}>
+      <Flex align={"center"} w={"full"} flexDir={"column"} my={8} px={12}>
+        <Heading fontSize={{
+          base: "3xl",
+          md: "4xl",
+        }} textAlign={"center"} fontWeight={"extrabold"}>
           <chakra.span
             bg={
               "linear-gradient(to right, #14b8a6, #00b3c3, #00aae2, #009ef8, #008afe, #1d85fc, #2d80fa, #397bf7, #0688f7, #0093f4, #009cef, #0ea5e9)"

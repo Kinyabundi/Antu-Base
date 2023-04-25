@@ -17,7 +17,10 @@ const BlockChainKYC = () => {
             />
 
 
-            <Box py={12} px={"28"} h={"600"} fontFamily={"Inconsolata"}>
+            <Box py={12} px={{
+                base: "8px",
+                md: "28px",
+            }} h={"600"} fontFamily={"Inconsolata"}>
                 <SimpleGrid columns={{
                     base: 1,
                     md: 2,
@@ -86,7 +89,10 @@ const BlockChainKYC = () => {
                     <Box
                         bg={"white"}
                         boxShadow={"0px 4.60418px 40.2865px rgba(0, 0, 0, 0.09)"}
-                        mx={"50px"}
+                        mx={{
+                            base: "25px",
+                            md: "50px",
+                        }}
                         w={"343px"}
                         h={"307px"}
                         borderRadius={"13.81px"}
@@ -116,7 +122,10 @@ const BlockChainKYC = () => {
                     <Box
                         bg={"white"}
                         boxShadow={"0px 4.60418px 40.2865px rgba(0, 0, 0, 0.09)"}
-                        mx={"50px"}
+                        mx={{
+                            base: "25px",
+                            md: "50px",
+                        }}
                         w={"343px"}
                         h={"307px"}
                         borderRadius={"13.81px"}
@@ -146,7 +155,10 @@ const BlockChainKYC = () => {
                     <Box
                         bg={"white"}
                         boxShadow={"0px 4.60418px 40.2865px rgba(0, 0, 0, 0.09)"}
-                        mx={"50px"}
+                        mx={{
+                            base: "25px",
+                            md: "50px",
+                        }}
                         w={"343px"}
                         h={"307px"}
                         borderRadius={"13.81px"}
@@ -183,9 +195,10 @@ const BlockChainKYC = () => {
             }} mb={"50px"} mt={{
                 base: "100px",
                 md: "50px",
-            }} mx={{
-                base: "50px",
-                md: "0px",
+            }} 
+            mx={{
+                base: "25px",
+                md: "50px",
             }}
                 fontFamily={"Inconsolata"}
             >

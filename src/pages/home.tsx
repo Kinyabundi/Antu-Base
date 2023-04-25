@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Box position={"relative"} pt={"8"} pb={"24"} px={{
-        base: "8px",  
+        base: "8px",
         md: "28px",
       }}>
         <Box
@@ -20,8 +20,14 @@ export default function Home() {
           right={"0"}
           bottom={"0"}
           bg={"linear-gradient(180deg, #8916BF 0%, #4E0E6B 100%)"}
-          h={"800px"}
-          w={"100%"}
+          h={{
+            base: "100%",
+            md: "800px",
+          }}
+          w={{
+            base: "100%",
+            md: "100%",
+          }}
           borderBottomRightRadius={"157px"}
           zIndex={"-10"}
         ></Box>
